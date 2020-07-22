@@ -6,7 +6,7 @@ We're going to use what we've already learned about searching with SQL commands 
 
 ## Exercise
 
-#### Requirements
+#### Setup
 
 - Fork and clone this repo.
 - Go inside the folder you just cloned
@@ -24,3 +24,15 @@ CREATE DATABASE carmen;
 \c carmen
 \i world.SQL
 ```
+Now your database is ready!!!! good luck detective :wink:
+
+## Exercise
+
+O the file [find_carmen.sql](find_carmen.sql) use the clues to create the appropriate SQL queries to help you find Carmen. Tell us where she's heading!
+<br>
+Dont't forget to commit. for each clue solved do a commit :wink:
+
+
+
+Don't forget to submit a pull request when you are done.
+
