@@ -22,7 +22,7 @@ CREATE DATABASE carmen;
 
 # Connect to carmen
 \c carmen
-\i world.SQL
+\i world.sql
 ```
 Now your database is ready!!!! good luck detective :wink:
 
