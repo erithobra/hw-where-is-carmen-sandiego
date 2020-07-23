@@ -24,7 +24,7 @@ CREATE DATABASE carmen;
 # To exit the psql terminal use the command
 \q
 ```
-Now your database is ready!!!! good luck detective :wink:
+Now your database is ready!!!! good luck detective :shipit: :mag: 
 
 ## Exercise
 
