@@ -28,7 +28,7 @@ Now your database is ready!!!! good luck detective :shipit: :mag:
 
 ## Exercise
 
-- O the file [find_carmen.sql](find_carmen.sql) use the clues to create the appropriate SQL queries to help you find Carmen. Tell us where she's heading!
+- Open the file [find_carmen.sql](find_carmen.sql) use the clues to create the appropriate SQL queries to help you find Carmen. Tell us where she's heading!
 - For each clue solved do a commit :wink:
 - Create a pull request to submit your work.
 
