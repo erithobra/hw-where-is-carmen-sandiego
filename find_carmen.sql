@@ -18,6 +18,20 @@ SELECT language,isofficial FROM countrylanguage WHERE countrycode LIKE 'VAT';
 -- to a different country, a country where people speak only the language she was learning. Find out which
 --  nearby country speaks nothing but that language.
 
+SELECT * FROM countrylanguage WHERE language LIKE 'Italian';
+ countrycode | language | isofficial | percentage
+-------------+----------+------------+------------
+ ITA         | Italian  | t          |       94.1
+ SMR         | Italian  | t          |        100
+
+then....
+
+SELECT name FROM country WHERE code LIKE 'SMR';
+    name
+------------
+ San Marino
+(1 row)
+
 
 
 -- Clue #4: We're booking the first flight out – maybe we've actually got a chance to catch her this time.
