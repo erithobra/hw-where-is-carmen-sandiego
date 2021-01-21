@@ -50,6 +50,17 @@ SELECT * FROM city WHERE countrycode LIKE 'SMR';
 -- headed to, but doesn't end the same. Find out the city, and do another search for what country it's in. Hurry!
 
 SELECT * FROM city WHERE name LIKE 'SER%';
+  id  |      name      | countrycode |     district      | population
+------+----------------+-------------+-------------------+------------
+  265 | Serra          | BRA         | Espï¿½rito Santo  |     302666
+  428 | Sertï¿½ozinho  | BRA         | Sï¿½o Paulo       |      98140
+  903 | Serekunda      | GMB         | Kombo St Mary     |     102600
+  994 | Serang         | IDN         | West Java         |     122400
+
+  then...
+
+SELECT * FROM country WHERE code LIKE 'BRA';
+Brazil
 
 
 -- Clue #6: We're close! Our South American agent says she just got a taxi at the airport, and is headed towards
