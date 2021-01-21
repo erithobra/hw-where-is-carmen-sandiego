@@ -74,7 +74,7 @@ SELECT * FROM city WHERE id = 211;
  id  |    name    | countrycode |     district     | population
 -----+------------+-------------+------------------+------------
  211 | Brasï¿½lia | BRA         | Distrito Federal |    1969868
- 
+
 -- Clue #7: She knows we're on to her – her taxi dropped her off at the international airport, and she beat us to
  -- the boarding gates. We have one chance to catch her, we just have to know where she's heading and beat her to the
  -- landing dock. Lucky for us, she's getting cocky. She left us a note, and I'm sure she thinks she's very clever, but
@@ -90,6 +90,10 @@ SELECT * FROM city WHERE id = 211;
 
 -- We're counting on you, gumshoe. Find out where she's headed, send us the info, and we'll be sure to meet her at the gates with bells on.
 
+SELECT * FROM city WHERE population = 91084;
+  id  |     name     | countrycode |  district  | population
+------+--------------+-------------+------------+------------
+ 4060 | Santa Monica | USA         | California |      91084
 
 
--- She's in ____________________________!
+-- She's in Santa Monica!
